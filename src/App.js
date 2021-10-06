@@ -17,7 +17,7 @@ function App() {
         location={user.location}
         avatar={user.avatar}
         stats={user.stats}
-      ></Profile>
+      />
       <Statistics title="Upload stats" stats={statData} />
       {/* <Statistics stats={statData} />; */}
       <FriendList friends={friends} />
